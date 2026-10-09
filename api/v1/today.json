@@ -1,7 +1,7 @@
 {
   "status": "success",
   "timezone": "America/New_York",
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "is_school_day": true,
   "buildings": [
     {
@@ -12,26 +12,171 @@
       "periods": [
         {
           "period_id": "1",
-          "name": "Bell 1",
+          "name": "Period 1",
           "type": "instructional",
-          "start_time": "07:45",
-          "end_time": "08:55",
-          "start_iso": "2026-10-08T07:45:00-04:00",
-          "end_iso": "2026-10-08T08:55:00-04:00",
-          "start_epoch": 1791459900,
-          "end_epoch": 1791464100
+          "start_time": "07:50",
+          "end_time": "08:40",
+          "start_iso": "2026-10-09T07:50:00-04:00",
+          "end_iso": "2026-10-09T08:40:00-04:00",
+          "start_epoch": 1791546600,
+          "end_epoch": 1791549600
+        },
+        {
+          "period_id": "P1-2",
+          "name": "Passing Period",
+          "type": "passing",
+          "start_time": "08:40",
+          "end_time": "08:46",
+          "start_iso": "2026-10-09T08:40:00-04:00",
+          "end_iso": "2026-10-09T08:46:00-04:00",
+          "start_epoch": 1791549600,
+          "end_epoch": 1791549960
+        },
+        {
+          "period_id": "2",
+          "name": "Period 2",
+          "type": "instructional",
+          "start_time": "08:46",
+          "end_time": "09:36",
+          "start_iso": "2026-10-09T08:46:00-04:00",
+          "end_iso": "2026-10-09T09:36:00-04:00",
+          "start_epoch": 1791549960,
+          "end_epoch": 1791552960
+        },
+        {
+          "period_id": "P2-ADV",
+          "name": "Passing Period",
+          "type": "passing",
+          "start_time": "09:36",
+          "end_time": "09:42",
+          "start_iso": "2026-10-09T09:36:00-04:00",
+          "end_iso": "2026-10-09T09:42:00-04:00",
+          "start_epoch": 1791552960,
+          "end_epoch": 1791553320
+        },
+        {
+          "period_id": "ADV",
+          "name": "Comet Advisory",
+          "type": "advisory",
+          "start_time": "09:42",
+          "end_time": "10:12",
+          "start_iso": "2026-10-09T09:42:00-04:00",
+          "end_iso": "2026-10-09T10:12:00-04:00",
+          "start_epoch": 1791553320,
+          "end_epoch": 1791555120
+        },
+        {
+          "period_id": "PADV-3",
+          "name": "Passing Period",
+          "type": "passing",
+          "start_time": "10:12",
+          "end_time": "10:18",
+          "start_iso": "2026-10-09T10:12:00-04:00",
+          "end_iso": "2026-10-09T10:18:00-04:00",
+          "start_epoch": 1791555120,
+          "end_epoch": 1791555480
+        },
+        {
+          "period_id": "3",
+          "name": "Period 3",
+          "type": "instructional",
+          "start_time": "10:18",
+          "end_time": "11:08",
+          "start_iso": "2026-10-09T10:18:00-04:00",
+          "end_iso": "2026-10-09T11:08:00-04:00",
+          "start_epoch": 1791555480,
+          "end_epoch": 1791558480
+        },
+        {
+          "period_id": "P3-4",
+          "name": "Passing Period",
+          "type": "passing",
+          "start_time": "11:08",
+          "end_time": "11:14",
+          "start_iso": "2026-10-09T11:08:00-04:00",
+          "end_iso": "2026-10-09T11:14:00-04:00",
+          "start_epoch": 1791558480,
+          "end_epoch": 1791558840
         },
         {
           "period_id": "4A",
           "parent_period_id": "4",
-          "name": "Bell 4A",
+          "name": "Lunch A / Period 4",
           "type": "lunch",
-          "start_time": "11:30",
-          "end_time": "12:00",
-          "start_iso": "2026-10-08T11:30:00-04:00",
-          "end_iso": "2026-10-08T12:00:00-04:00",
-          "start_epoch": 1791473400,
-          "end_epoch": 1791475200
+          "start_time": "11:14",
+          "end_time": "11:44",
+          "start_iso": "2026-10-09T11:14:00-04:00",
+          "end_iso": "2026-10-09T11:44:00-04:00",
+          "start_epoch": 1791558840,
+          "end_epoch": 1791560640
+        },
+        {
+          "period_id": "4B",
+          "parent_period_id": "4",
+          "name": "Lunch B / Period 4",
+          "type": "lunch",
+          "start_time": "11:44",
+          "end_time": "12:14",
+          "start_iso": "2026-10-09T11:44:00-04:00",
+          "end_iso": "2026-10-09T12:14:00-04:00",
+          "start_epoch": 1791560640,
+          "end_epoch": 1791562440
+        },
+        {
+          "period_id": "4C",
+          "parent_period_id": "4",
+          "name": "Lunch C / Period 4",
+          "type": "lunch",
+          "start_time": "12:14",
+          "end_time": "12:44",
+          "start_iso": "2026-10-09T12:14:00-04:00",
+          "end_iso": "2026-10-09T12:44:00-04:00",
+          "start_epoch": 1791562440,
+          "end_epoch": 1791564240
+        },
+        {
+          "period_id": "P4-5",
+          "name": "Passing Period",
+          "type": "passing",
+          "start_time": "12:44",
+          "end_time": "12:50",
+          "start_iso": "2026-10-09T12:44:00-04:00",
+          "end_iso": "2026-10-09T12:50:00-04:00",
+          "start_epoch": 1791564240,
+          "end_epoch": 1791564600
+        },
+        {
+          "period_id": "5",
+          "name": "Period 5",
+          "type": "instructional",
+          "start_time": "12:50",
+          "end_time": "13:40",
+          "start_iso": "2026-10-09T12:50:00-04:00",
+          "end_iso": "2026-10-09T13:40:00-04:00",
+          "start_epoch": 1791564600,
+          "end_epoch": 1791567600
+        },
+        {
+          "period_id": "P5-6",
+          "name": "Passing Period",
+          "type": "passing",
+          "start_time": "13:40",
+          "end_time": "13:46",
+          "start_iso": "2026-10-09T13:40:00-04:00",
+          "end_iso": "2026-10-09T13:46:00-04:00",
+          "start_epoch": 1791567600,
+          "end_epoch": 1791567960
+        },
+        {
+          "period_id": "6",
+          "name": "Period 6",
+          "type": "instructional",
+          "start_time": "13:46",
+          "end_time": "14:36",
+          "start_iso": "2026-10-09T13:46:00-04:00",
+          "end_iso": "2026-10-09T14:36:00-04:00",
+          "start_epoch": 1791567960,
+          "end_epoch": 1791570960
         }
       ]
     },
@@ -45,12 +190,179 @@
           "period_id": "1",
           "name": "Bell 1",
           "type": "instructional",
-          "start_time": "07:45",
-          "end_time": "08:38",
-          "start_iso": "2026-10-08T07:45:00-04:00",
-          "end_iso": "2026-10-08T08:38:00-04:00",
-          "start_epoch": 1791459900,
-          "end_epoch": 1791463080
+          "start_time": "07:30",
+          "end_time": "08:20",
+          "start_iso": "2026-10-09T07:30:00-04:00",
+          "end_iso": "2026-10-09T08:20:00-04:00",
+          "start_epoch": 1791545400,
+          "end_epoch": 1791548400
+        },
+        {
+          "period_id": "P1-2",
+          "name": "Passing Period",
+          "type": "passing",
+          "start_time": "08:20",
+          "end_time": "08:25",
+          "start_iso": "2026-10-09T08:20:00-04:00",
+          "end_iso": "2026-10-09T08:25:00-04:00",
+          "start_epoch": 1791548400,
+          "end_epoch": 1791548700
+        },
+        {
+          "period_id": "2",
+          "name": "Bell 2",
+          "type": "instructional",
+          "start_time": "08:25",
+          "end_time": "09:15",
+          "start_iso": "2026-10-09T08:25:00-04:00",
+          "end_iso": "2026-10-09T09:15:00-04:00",
+          "start_epoch": 1791548700,
+          "end_epoch": 1791551700
+        },
+        {
+          "period_id": "P2-ADV",
+          "name": "Passing Period",
+          "type": "passing",
+          "start_time": "09:15",
+          "end_time": "09:20",
+          "start_iso": "2026-10-09T09:15:00-04:00",
+          "end_iso": "2026-10-09T09:20:00-04:00",
+          "start_epoch": 1791551700,
+          "end_epoch": 1791552000
+        },
+        {
+          "period_id": "ADV",
+          "name": "Advisory Block",
+          "type": "advisory",
+          "start_time": "09:20",
+          "end_time": "09:50",
+          "start_iso": "2026-10-09T09:20:00-04:00",
+          "end_iso": "2026-10-09T09:50:00-04:00",
+          "start_epoch": 1791552000,
+          "end_epoch": 1791553800
+        },
+        {
+          "period_id": "PADV-3",
+          "name": "Passing Period",
+          "type": "passing",
+          "start_time": "09:50",
+          "end_time": "09:55",
+          "start_iso": "2026-10-09T09:50:00-04:00",
+          "end_iso": "2026-10-09T09:55:00-04:00",
+          "start_epoch": 1791553800,
+          "end_epoch": 1791554100
+        },
+        {
+          "period_id": "3",
+          "name": "Bell 3",
+          "type": "instructional",
+          "start_time": "09:55",
+          "end_time": "10:45",
+          "start_iso": "2026-10-09T09:55:00-04:00",
+          "end_iso": "2026-10-09T10:45:00-04:00",
+          "start_epoch": 1791554100,
+          "end_epoch": 1791557100
+        },
+        {
+          "period_id": "P3-4",
+          "name": "Passing Period",
+          "type": "passing",
+          "start_time": "10:45",
+          "end_time": "10:50",
+          "start_iso": "2026-10-09T10:45:00-04:00",
+          "end_iso": "2026-10-09T10:50:00-04:00",
+          "start_epoch": 1791557100,
+          "end_epoch": 1791557400
+        },
+        {
+          "period_id": "4A",
+          "parent_period_id": "4",
+          "name": "Lunch A",
+          "type": "lunch",
+          "start_time": "10:50",
+          "end_time": "11:20",
+          "start_iso": "2026-10-09T10:50:00-04:00",
+          "end_iso": "2026-10-09T11:20:00-04:00",
+          "start_epoch": 1791557400,
+          "end_epoch": 1791559200
+        },
+        {
+          "period_id": "4B",
+          "parent_period_id": "4",
+          "name": "Lunch B",
+          "type": "lunch",
+          "start_time": "11:25",
+          "end_time": "11:55",
+          "start_iso": "2026-10-09T11:25:00-04:00",
+          "end_iso": "2026-10-09T11:55:00-04:00",
+          "start_epoch": 1791559500,
+          "end_epoch": 1791561300
+        },
+        {
+          "period_id": "P4-5",
+          "name": "Passing Period",
+          "type": "passing",
+          "start_time": "11:55",
+          "end_time": "12:00",
+          "start_iso": "2026-10-09T11:55:00-04:00",
+          "end_iso": "2026-10-09T12:00:00-04:00",
+          "start_epoch": 1791561300,
+          "end_epoch": 1791561600
+        },
+        {
+          "period_id": "5",
+          "name": "Bell 5",
+          "type": "instructional",
+          "start_time": "12:00",
+          "end_time": "12:50",
+          "start_iso": "2026-10-09T12:00:00-04:00",
+          "end_iso": "2026-10-09T12:50:00-04:00",
+          "start_epoch": 1791561600,
+          "end_epoch": 1791564600
+        },
+        {
+          "period_id": "P5-6",
+          "name": "Passing Period",
+          "type": "passing",
+          "start_time": "12:50",
+          "end_time": "12:55",
+          "start_iso": "2026-10-09T12:50:00-04:00",
+          "end_iso": "2026-10-09T12:55:00-04:00",
+          "start_epoch": 1791564600,
+          "end_epoch": 1791564900
+        },
+        {
+          "period_id": "6",
+          "name": "Bell 6",
+          "type": "instructional",
+          "start_time": "12:55",
+          "end_time": "13:45",
+          "start_iso": "2026-10-09T12:55:00-04:00",
+          "end_iso": "2026-10-09T13:45:00-04:00",
+          "start_epoch": 1791564900,
+          "end_epoch": 1791567900
+        },
+        {
+          "period_id": "P6-7",
+          "name": "Passing Period",
+          "type": "passing",
+          "start_time": "13:45",
+          "end_time": "13:50",
+          "start_iso": "2026-10-09T13:45:00-04:00",
+          "end_iso": "2026-10-09T13:50:00-04:00",
+          "start_epoch": 1791567900,
+          "end_epoch": 1791568200
+        },
+        {
+          "period_id": "7",
+          "name": "Bell 7",
+          "type": "instructional",
+          "start_time": "13:50",
+          "end_time": "14:15",
+          "start_iso": "2026-10-09T13:50:00-04:00",
+          "end_iso": "2026-10-09T14:15:00-04:00",
+          "start_epoch": 1791568200,
+          "end_epoch": 1791569700
         }
       ]
     }
